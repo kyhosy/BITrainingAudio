@@ -5,8 +5,7 @@ import numpy as np
 def drawPlot(src):
 	audio = AudioSegment.from_file(src)
 	data = np.frombuffer(audio._data, np.int16)
-
-	plt.figure(1)
+	plt.figure()
 	plt.title('Signal Wave...')
 	plt.plot(data)
 	plt.show()
