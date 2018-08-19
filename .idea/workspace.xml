@@ -57,22 +57,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="11" />
+          <entry key="py" value="449" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="11" />
+          <entry key="Python" value="449" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Python" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -82,8 +82,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="468">
+              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/audio_simple.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="-90">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
@@ -100,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/audio_advantage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="432">
+              <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -109,36 +112,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/predicts/spchtest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="162">
+              <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
+              <folding>
+                <element signature="e#16#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/predicts/spchtrain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="522">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+              <folding>
+                <element signature="e#18#27#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manageFile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mnist.npz">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -167,8 +162,9 @@
         <option value="$PROJECT_DIR$/GUI.py" />
         <option value="$PROJECT_DIR$/gui.py" />
         <option value="$PROJECT_DIR$/audio_advantage.py" />
-        <option value="$PROJECT_DIR$/predicts/spchtest.py" />
         <option value="$PROJECT_DIR$/predicts/xx.py" />
+        <option value="$PROJECT_DIR$/predicts/spchtrain.py" />
+        <option value="$PROJECT_DIR$/predicts/spchtest.py" />
       </list>
     </option>
   </component>
@@ -193,6 +189,17 @@
               <item name="BITrainingAudio" type="b2602c69:ProjectViewProjectNode" />
               <item name="BITrainingAudio" type="462c0819:PsiDirectoryNode" />
               <item name="predicts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BITrainingAudio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BITrainingAudio" type="462c0819:PsiDirectoryNode" />
+              <item name="sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BITrainingAudio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BITrainingAudio" type="462c0819:PsiDirectoryNode" />
+              <item name="sources" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -223,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.gui">
+  <component name="RunManager" selected="Python.spchtest">
     <configuration name="audio" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BiTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -287,7 +294,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="manageFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="spchtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BiTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -295,11 +302,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/predicts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manageFile.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/predicts/spchtest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -308,7 +315,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="spchtrain" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="spchtrain" type="PythonConfigurationType" factoryName="Python">
       <module name="BiTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -330,19 +337,18 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.manageFile" />
+      <item itemvalue="Python.spchtrain" />
+      <item itemvalue="Python.spchtest" />
       <item itemvalue="Python.audio" />
       <item itemvalue="Python.audio_advantage" />
       <item itemvalue="Python.gui" />
-      <item itemvalue="Python.spchtrain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.spchtest" />
         <item itemvalue="Python.gui" />
-        <item itemvalue="Python.spchtrain" />
         <item itemvalue="Python.audio_advantage" />
         <item itemvalue="Python.audio" />
-        <item itemvalue="Python.manageFile" />
       </list>
     </recent_temporary>
   </component>
@@ -359,21 +365,29 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-7" width="1478" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23594727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23594727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.304698" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5060403" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39942113" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32885906" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3299566" />
@@ -426,10 +440,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/audio_simple.py">
+    <entry file="file://$PROJECT_DIR$/mnist.npz">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/sklearn/preprocessing/data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="-144">
+          <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -440,37 +457,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnist.npz">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/audio_advantage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="432">
+          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/predicts/spchtest.py">
+    <entry file="file://$PROJECT_DIR$/gui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="33" />
+        <state relative-caret-position="468">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audio_simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/predicts/spchtrain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="522">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="e#18#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predicts/spchtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
+          <folding>
+            <element signature="e#16#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
