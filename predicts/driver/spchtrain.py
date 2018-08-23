@@ -2,10 +2,8 @@
 import datetime
 import os
 import librosa
-from pydub import AudioSegment
 import _pickle as cPickle
 import numpy as np
-from scipy.io.wavfile import read
 from sklearn.mixture import GMM
 import python_speech_features as mfcc
 from sklearn import preprocessing
@@ -15,6 +13,7 @@ warnings.filterwarnings("ignore")
 
 def get_MFCC(sr,audio):
     # print('get_MFCC {}'.format(sr))
+
     features = mfcc.mfcc(audio,sr, 0.025, 0.01, 13,appendEnergy = False)
     features = preprocessing.scale(features)
     return features
@@ -25,15 +24,16 @@ def printNow():
 
 def training(gender):
     printNow()
-    source = "C:\\Users\\dell\\PycharmProjects\\BITrainingAudio\\sources\\train_data\\{}\\".format(gender)
-    dest = "C:\\Users\\dell\\PycharmProjects\\BITrainingAudio\\sources\\model\\"
+    source = "input files/train/{}".format(gender)
+    dest = "input files/Ky/model/"
+
+    print('training {} {}'.format(source,dest))
     files    = [os.path.join(source,f) for f in os.listdir(source)]
-                # if
-                #  f.endswith('.wav')]
+
     features = np.asarray(());
-
-    for f in files:
-
+    maxTraing = 850
+    for f in files[:maxTraing]:
+        print(f)
         data,rate = librosa.core.load(f, 16000)
         # rate, data = read(f)
 
@@ -48,12 +48,20 @@ def training(gender):
     gmm = GMM(n_components = 8, n_iter = 200, covariance_type='diag',
             n_init = 3)
     gmm.fit(features)
-    print(f.split("\\")[-2])
-    picklefile = f.split("\\")[-2]+".gmm"
+    print(f.split("/")[-2])
+    picklefile = f.split("/")[-2]+".gmm"
     print(dest + picklefile)
 
     # model saved as .gmm
     cPickle.dump(gmm,open(dest + picklefile,'wb'))
     printNow()
-# training('male')
-# training('female')
+
+
+print('BEGIN TRAINING {}'.format(printNow()))
+training('female_central')
+training('female_north')
+training('female_south')
+training('male_central')
+training('male_north')
+training('male_south')
+print('COMPLETED TRAINING {}'.format(printNow()))
