@@ -4,7 +4,7 @@ import datetime
 import os
 import _pickle as cPickle
 import numpy as np
-from scipy.io.wavfile import read
+import librosa
 import python_speech_features as mfcc
 from sklearn import preprocessing
 import warnings
@@ -49,7 +49,7 @@ def test():
     index = 0
     for f in files:
         print(f.split("\\")[-1])
-        sr, audio  = read(f)
+        audio, sr = librosa.core.load(f, 16000)
         features   = get_MFCC(sr,audio)
         scores     = None
         log_likelihood = np.zeros(len(models))
@@ -68,7 +68,7 @@ def test():
         index = index + 1
 
 
-    df.to_csv("result_{}.csv",str(datetime.datetime.now()),index=False, encoding='utf8')
+    df.to_csv("input files/Ky/result_{}.csv",str(datetime.datetime.now()),index=False, encoding='utf8')
 
 
 print('BEGIN TEST {}'.format(printNow()))
