@@ -50,35 +50,35 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="2" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="7" />
-          <entry key="py" value="2210" />
+          <entry key="dummy" value="8" />
+          <entry key="py" value="2689" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="2210" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="2689" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="2" />
-          <entry key="py" value="21" />
+          <entry key="csv" value="3" />
+          <entry key="py" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="21" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="27" />
         </counts>
       </usages-collector>
     </session>
@@ -86,25 +86,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/predicts/driver/csvFile.py">
+        <entry file="file://$PROJECT_DIR$/predicts/driver/spchsubmit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="23" column="67" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="67" />
+            <state relative-caret-position="464">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1535006508986" expanded="true" signature="165:166" ph="..." />
+                <element signature="e#16#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/predicts/driver/spchtest.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/predicts/spchtest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-72">
-              <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+            <state relative-caret-position="810">
+              <caret line="51" column="44" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="44" />
               <folding>
-                <element signature="e#16#29#0" expanded="true" />
+                <element signature="e#16#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,15 +114,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/sklearn/utils/mocking.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -143,8 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/predicts/driver/spchtrain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="47" />
+            <state relative-caret-position="266">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="e#17#32#0" expanded="true" />
               </folding>
@@ -153,19 +143,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/sklearn/mixture/gmm.py">
+        <entry file="file://$PROJECT_DIR$/predicts/driver/spchtrain_male.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11826">
-              <caret line="668" column="9" selection-start-line="668" selection-start-column="6" selection-end-line="668" selection-end-column="9" />
+            <state relative-caret-position="212">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="60" selection-end-column="22" />
+              <folding>
+                <element signature="e#17#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/predicts/driver/spchtrain_male_south.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/librosa/core/audio.py">
+        <entry file="file://$PROJECT_DIR$/predicts/driver/spchtrain_female.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+            <state relative-caret-position="248">
+              <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -205,6 +207,7 @@
       <find>data</find>
       <find>read</find>
       <find>gender</find>
+      <find>genders</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -226,12 +229,16 @@
         <option value="$PROJECT_DIR$/predicts/driver/csv.py" />
         <option value="$PROJECT_DIR$/predicts/driver/csvFile.py" />
         <option value="$PROJECT_DIR$/predicts/driver/spchtest.py" />
+        <option value="$PROJECT_DIR$/predicts/driver/spchtrain_male.py" />
+        <option value="$PROJECT_DIR$/predicts/driver/spchsubmit.py" />
+        <option value="$PROJECT_DIR$/predicts/driver/spchtrain_female.py" />
+        <option value="$PROJECT_DIR$/predicts/driver/spchtrain_male_south.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="250" />
-    <option name="width" value="935" />
+    <option name="x" value="80" />
+    <option name="width" value="934" />
     <option name="height" value="1090" />
   </component>
   <component name="ProjectView">
@@ -274,14 +281,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\dell\PycharmProjects\BITrainingAudio\predicts\driver" />
-      <recent name="C:\Users\dell\PycharmProjects\BITrainingAudio" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dell\PycharmProjects\BITrainingAudio\predicts\driver" />
       <recent name="C:\Users\dell\PycharmProjects\BiTest\sources" />
       <recent name="C:\Users\dell\PycharmProjects\BiTest" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dell\PycharmProjects\BITrainingAudio\predicts\driver" />
+      <recent name="C:\Users\dell\PycharmProjects\BITrainingAudio" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -575,13 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/predicts/spchtest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/python_speech_features/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -589,9 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="26" column="37" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -599,16 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6660">
           <caret line="413" column="4" selection-start-line="413" selection-start-column="4" selection-end-line="413" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/predicts/spchtrain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding>
-            <marker date="1534863947306" expanded="true" signature="540:596" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,6 +613,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/predicts/driver/output_filename.csv" />
+    <entry file="file://$PROJECT_DIR$/predicts/driver/csvFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="23" column="67" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/sklearn/utils/mocking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predicts/driver/spchtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="48" />
+          <folding>
+            <element signature="e#16#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predicts/spchtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="51" column="44" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="44" />
+          <folding>
+            <element signature="e#16#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/test_metadata.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predicts/spchtrain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <marker date="1534863947306" expanded="true" signature="540:596" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/scipy/io/wavfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4806">
@@ -640,51 +679,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/sklearn/utils/mocking.py">
+    <entry file="file://$PROJECT_DIR$/predicts/driver/spchsubmit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/predicts/driver/output_filename.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/test_metadata.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/predicts/driver/csvFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="23" column="67" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="67" />
+        <state relative-caret-position="464">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1535006508986" expanded="true" signature="165:166" ph="..." />
+            <element signature="e#16#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/predicts/driver/spchtrain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="47" />
+        <state relative-caret-position="266">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="e#17#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/predicts/driver/spchtest.py">
+    <entry file="file://$PROJECT_DIR$/predicts/driver/spchtrain_female.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+        <state relative-caret-position="248">
+          <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predicts/driver/spchtrain_male.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="60" selection-end-column="22" />
           <folding>
-            <element signature="e#16#29#0" expanded="true" />
+            <element signature="e#17#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predicts/driver/spchtrain_male_south.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>

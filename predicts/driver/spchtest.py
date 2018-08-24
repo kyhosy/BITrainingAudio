@@ -40,7 +40,7 @@ def test():
     gmm_files = [os.path.join(modelpath,fname) for fname in
                   os.listdir(modelpath) if fname.endswith('.gmm')]
     models    = [cPickle.load(open(fname,'rb')) for fname in gmm_files]
-    genders   = [fname.split("\\")[-1].split(".gmm")[0] for fname
+    genders   = [fname.split("/")[-1].split(".gmm")[0] for fname
                   in gmm_files]
     maxText = 50
     # print(genders)
@@ -48,7 +48,7 @@ def test():
 
     index = 0
     for f in files:
-        print(f.split("\\")[-1])
+        print(f.split("/")[-1])
         audio, sr = librosa.core.load(f, 16000)
         features   = get_MFCC(sr,audio)
         scores     = None
@@ -68,7 +68,7 @@ def test():
         index = index + 1
 
 
-    df.to_csv("input files/Ky/result_{}.csv",str(datetime.datetime.now()),index=False, encoding='utf8')
+    df.to_csv("input files/Ky/result_training.csv",index=False, encoding='utf8')
 
 
 print('BEGIN TEST {}'.format(printNow()))
